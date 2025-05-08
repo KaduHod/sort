@@ -4,7 +4,7 @@ Um projeto simples para comparar o desempenho do algoritmo QuickSort implementad
 
 ## O que este projeto faz
 
-Este projeto executa implementações do algoritmo QuickSort em duas linguagens diferentes (PHP e Go) e compara o tempo de execução de cada uma. O script de benchmark (`benchmark.sh`) automatiza o processo de:
+Este projeto executa implementações do algoritmo QuickSort em duas linguagens diferentes (PHP e Go) e compara o tempo de execução de cada uma. O script de benchmark (`compare.sh`) automatiza o processo de:
 
 1. Executar a implementação em PHP
 2. Compilar e executar a implementação em Go
@@ -22,16 +22,16 @@ Para executar este benchmark, você precisa ter instalado:
 
 ## Como executar
 
-1. Certifique-se de que os arquivos `quicksort.php` e `quicksort.go` estão no mesmo diretório que o script `benchmark.sh`
+1. Certifique-se de que os arquivos `quicksort.php` e `quicksort.go` estão no mesmo diretório que o script `compare.sh`
 
 2. Dê permissão de execução ao script de benchmark:
    ```
-   chmod +x benchmark.sh
+   chmod +x compare.sh
    ```
 
 3. Execute o script:
    ```
-   ./benchmark.sh
+   ./compare.sh
    ```
 
 4. O script exibirá os tempos de execução para cada implementação e indicará qual foi mais rápida.
@@ -40,7 +40,7 @@ Para executar este benchmark, você precisa ter instalado:
 
 - `quicksort.php`: Implementação do algoritmo QuickSort em PHP
 - `quicksort.go`: Implementação do algoritmo QuickSort em Go
-- `benchmark.sh`: Script que executa ambas as implementações e compara o desempenho
+- `compare.sh`: Script que executa ambas as implementações e compara o desempenho
 
 ## Interpretando os resultados
 
