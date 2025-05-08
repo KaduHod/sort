@@ -11,7 +11,7 @@ php quicksort.php
 end_php=$(date +%s.%N)
 runtime_php=$(echo "$end_php - $start_php" | bc)
 
-echo -e "${BLUE} Buildando go ... ${RESET}"
+echo -e "${BLUE}\nBuildando go ... ${RESET}"
 go build .
 echo -e "${BLUE}\nExecutando quicksort.go...${RESET}"
 start_go=$(date +%s.%N)
